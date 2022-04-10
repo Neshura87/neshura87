@@ -17,18 +17,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header
           plugin_lines: yes
-      
-      - name: repo-traffic
-        uses: Neshura87/metrics@master
-        with:
-          filename: metrics.repo-traffic.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: repositories
-          users_ignored: Neshura87
-          repositories_affiliations: owner
-          repositories_skipped: studienarbeit-raspberry-pi, neshura87, Wallpapers-Icons, Studienarbeiten, metrics
-          plugin_traffic: yes
-          plugin_traffic_skipped: studienarbeit-raspberry-pi, neshura87, Wallpapers-Icons, Studienarbeiten, metrics
         
       - name: languages
         uses: Neshura87/metrics@master
