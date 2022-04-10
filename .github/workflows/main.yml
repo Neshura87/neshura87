@@ -15,11 +15,19 @@ jobs:
         with:
           filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, repositories
+          base: header
           plugin_lines: yes
+      
+      - name: repo-traffic
+        uses: Neshura87/metrics@master
+        with:
+          filename: metrics.repo-traffic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: repositories
           users_ignored: Neshura87
-          repositories_skipped: Neshura87/studienarbeit-raspberry-pi, Neshura87/neshura87, Neshura87/Wallpapers-Icons, Neshura87/Studienarbeiten
           repositories_affiliations: owner
+          plugin_traffic: yes
+          plugin_traffic_skipped: Neshura87/studienarbeit-raspberry-pi, Neshura87/neshura87, Neshura87/Wallpapers-Icons, Neshura87/Studienarbeiten, Neshura87/metrics
         
       - name: languages
         uses: Neshura87/metrics@master
