@@ -17,6 +17,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
           plugin_lines: yes
+          users_ignored: Neshura87
         
       - name: languages
         uses: Neshura87/metrics@master
