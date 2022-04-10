@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/KDE Plasma-blue?style=for-the-badge&logo=kde&logoColor=white" />
   <br></br>
   <img src="/metrics.classic.svg" alt="Metrics" width="400">
+  <br></br>
   <img src="/metrics.repo-traffic.svg" alt="Metrics" width="400">
   <br></br>
   <img src="/metrics.languages.svg" alt="Metrics" width="400">
