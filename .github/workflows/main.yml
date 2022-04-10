@@ -13,7 +13,8 @@ jobs:
       - uses: Neshura87/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
+          base: header, repositories
+          plugin_lines: yes
           plugin_languages: yes
           plugin_languages_skipped: studienarbeit-raspberry-pi, metrics
           plugin_languages_details: "percentage"
