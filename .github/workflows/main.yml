@@ -28,5 +28,5 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_languages: yes
-          plugin_languages_skipped: Neshura87/studienarbeit-raspberry-pi, Neshura87/neshura87, Neshura87/Wallpapers-Icons, Neshura87/Studienarbeiten
+          plugin_languages_skipped: Neshura87/studienarbeit-raspberry-pi, Neshura87/neshura87, Neshura87/Wallpapers-Icons, Neshura87/Studienarbeiten, Neshura87/metrics
           plugin_languages_details: "percentage"
