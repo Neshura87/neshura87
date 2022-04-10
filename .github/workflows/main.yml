@@ -18,7 +18,8 @@ jobs:
           base: header, repositories
           plugin_lines: yes
           users_ignored: Neshura87
-          repositories_skipped: studienarbeit-raspberry-pi, neshura87, Wallpapers-Icons, Studienarbeiten
+          repositories_skipped: Neshura87/studienarbeit-raspberry-pi, Neshura87/neshura87, Neshura87/Wallpapers-Icons, Neshura87/Studienarbeiten
+          repositories_affiliations: owner
         
       - name: languages
         uses: Neshura87/metrics@master
@@ -27,5 +28,5 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_languages: yes
-          plugin_languages_skipped: studienarbeit-raspberry-pi, neshura87, Wallpapers-Icons, Studienarbeiten
+          plugin_languages_skipped: Neshura87/studienarbeit-raspberry-pi, Neshura87/neshura87, Neshura87/Wallpapers-Icons, Neshura87/Studienarbeiten
           plugin_languages_details: "percentage"
