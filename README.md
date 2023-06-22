@@ -8,9 +8,5 @@
   <br></br>
   <img src="https://img.shields.io/badge/Fedora-blue?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora" />
   <img src="https://img.shields.io/badge/KDE Plasma-blue?style=for-the-badge&logo=kde&logoColor=white" />
-  <br></br>
-  <img src="/metrics.classic.svg" alt="Metrics" width="400">
-  <br></br>
-  <img src="/metrics.languages.svg" alt="Metrics" width="400">
 </p>
 
